@@ -1,0 +1,40 @@
+.login {
+  color: var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  @media (max-width: 1024px) {
+    display: none;
+  }
+
+  button {
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+    padding: 0px;
+    border-radius: 0;
+    &:hover,
+    &:focus {
+      opacity: 1;
+      outline: 4px solid var(--black);
+    }
+
+  }
+
+  .text {
+    color: var(--darkGray);
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  a {
+    text-decoration: none;
+    margin-left: 10px;
+
+    &:hover,
+    &:focus {
+      outline: 4px solid var(--black);
+    }
+  }
+}

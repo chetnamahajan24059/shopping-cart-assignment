@@ -1,0 +1,28 @@
+.cart {
+  text-decoration: none;
+  color: var(--black);
+  background-color: var(--lightGray);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  outline: 4px solid var(--lightGray);
+  &:hover,
+  &:focus {
+    outline: 4px solid var(--black);
+  }
+
+  img {
+    height: 40px;
+    width: 40px;
+    color: red;
+
+    @media (max-width: 1024px) {
+      height: 24px;
+      width: 24px;
+    }
+  }
+
+  span {
+    font-weight: bold;
+  }
+}

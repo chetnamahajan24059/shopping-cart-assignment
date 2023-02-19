@@ -1,0 +1,19 @@
+button {
+    margin: 20px 0;
+    padding: 10px;
+    text-align: center;
+    background-color: var(--maroon);
+    color: var(--white);
+    border-radius: var(--borderRadius);
+    border: 0;
+    font-weight: bold;
+
+    &:focus {
+      outline: 4px solid var(--darkGray);
+    }
+
+    &:hover,
+    &:disabled {
+      opacity: 0.5;
+    }
+  }

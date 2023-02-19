@@ -1,0 +1,15 @@
+.logo {
+  text-decoration: none;
+  &:hover {
+    outline: 4px solid var(--black);
+  }
+
+  img {
+    height: 100%;
+    width: 250px;
+
+    @media (max-width: 1024px) {
+      width: 100px;
+    }
+  }
+}

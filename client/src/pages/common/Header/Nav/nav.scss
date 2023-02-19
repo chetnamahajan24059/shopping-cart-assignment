@@ -1,0 +1,30 @@
+.main-nav {
+  @media (max-width: 1024px) {
+    display: none;
+  }
+  ul {
+    list-style-type: none;
+    display: flex;
+    font-weight: bold;
+
+    li {
+      padding: 10px;
+      a {
+        color: var(--darkGrey);
+        text-decoration: none;
+        padding: 10px;
+      }
+
+      a:active,
+      a:hover,
+      a:focus {
+        outline: 4px solid var(--black);
+      }
+    
+      [aria-current="page"] {
+        outline: 4px solid var(--black);
+      }
+    }
+  }
+
+}
